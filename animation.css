@@ -1,0 +1,53 @@
+*{
+    background-color: mistyrose;
+    text-align: center;
+}
+
+
+@keyframes Ijoba {
+    from{
+        transform: translateX(+800px);
+    }
+    
+    to{
+        transform: translateX(0);
+    }
+}
+
+h1{
+    color: blue;
+    font-family: Vina Sans;
+}
+
+hr{
+    color: rgb(236, 9, 9);
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    color: rgb(200, 237, 100);
+    background-color: black;
+    border: 3px solid rgb(217, 226, 43);
+    border-radius: 20px;
+    animation: Ijoba;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-delay: 2s;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in;
+    font-family: Shizuru;
+    font-size: larger;
+}
+
+.btn:hover{
+    color: chartreuse;
+    background-color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 414px) {
+    #head{
+        color: cyan;
+    }
+}

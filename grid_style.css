@@ -1,0 +1,34 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Applying basic styles to the grid items */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: #e74b4b;
+    color: rgb(30, 255, 0);
+    padding: 10px;
+    text-align: center;
+}
+
+button{
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button:hover{
+    color: blue;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}

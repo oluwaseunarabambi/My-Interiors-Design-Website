@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;   
+}
+ul{
+    display: flex;
+    color: fuchsia;
+}
+li{
+    list-style: none;
+    margin-right: 15px;
+}
+a{
+    color: rgb(255, 60, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    color: aqua;
+}
+.Para p{
+    color: rgba(175, 223, 16, 0.833);
+    justify-content: center;
+    text-align: center;
+    font-family: Nanum Pen Script;
+    font-size: x-large;
+}
+
+.Para h1{
+    color: rgb(0, 255, 204);
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.Para h1:hover {
+    color: rgb(100, 207, 237);
+}
+.Para{
+    height: 100vh;
+    background-image: url("../TECH_PROJECTS/images/4567688900.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+@media screen and (min-width: 768px){
+    /* Add styles specific to smaller screens */
+    font-size: 14px;
+    color: cadetblue;
+}
+
+.but{
+    padding: 10px 30px;
+    border-right-color: rgb(255, 162, 0) 1px solid;
+    color: rgb(81, 255, 0);
+    background-color: #3498db88;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Rubik Doodle Shadow;
+    cursor: pointer;
+}
+
+.but:hover{
+    color: deeppink;
+    background-color: lightyellow;
+    cursor: pointer;
+}
